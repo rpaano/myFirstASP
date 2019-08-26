@@ -20,11 +20,11 @@ namespace MVCDemo.Models
         public int Age
         {
             get; set;
-        }
+        } = 0;
 
         public bool IsAlive
         {
             get; set;
-        }
+        } = true;
     }
 }
